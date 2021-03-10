@@ -57,63 +57,76 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 <img src ="http://g.recordit.co/hQJf7E6hGK.gif" width = 200> <br>
 
-[x](https://codepath-prework-site.glitch.me/)
+[click the link to access the game!](https://codepath-prework-site.glitch.me/)
 
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
 
    [https://htmlcolorcodes.com/
+   
    https://www.w3schools.com/css//css_font_websafe.asp
+   
    https://freesound.org/
+   
    https://stackoverflow.com/questions/1175448/best-way-to-play-wav-files-in-the-browser
+   
    https://www.w3schools.com/html/html5_audio.asp
+   
    https://www.codegrepper.com/code-examples/html/how+play+audio+js
+   
    http://www.learningaboutelectronics.com/Articles/How-to-play-an-audio-file-using-HTML.php
+   
    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
-   [I was having a hard time distinguishing the two variables: progress and guessCounter.
+   I was having a hard time distinguishing the two variables: progress and guessCounter.
    I knew that "progress" was used to keep track of the pattern,
    whereas the "guessCounter" is for keeping track of the player's choices.
    When I tried to implement the "guess" function, whihc was the game logic,
    I found myself mixing them up and thought they would be the same number. However, after
    I went back to the previous steps looking through their definition, wrote down my notes in order
    to memorize their function, and used an example to simulate how the codes would play their roles,
-   I finally clarified my conflict. I have spent around 1.5 hrs on this problem. //
+   I finally clarified my conflict. I have spent around 1.5 hrs on this problem. 
+   
+   
    Another challenge was from the optional tasks, and it was how to put the audio file into the buttons.
    I have read the website given by the pre-work instructions, and I also have tried them. Unfortunately,
    they did not work. Then I searched for more ways to connect the .wav files to the buttons and
    some possible mistakes that I might have made when I try to implement.
    However, I had failed in trying to implement it on the HTML side solely, on the Javascript side solely,
-   and on both sides. As the time limits came closer, I had to stop and move on to implement another feature.]
+   and on both sides. As the time limits came closer, I had to stop and move on to implement another feature.
+   
+   
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
-   [Is this how front-end web developers like? If so, what would be the back-end like?
+   Is this how front-end web developers like? If so, what would be the back-end like?
    Is this how front-end web developers like? If so, what would be the back-end like?
    I have heard about the issue of front-end vs. back-end. As a web developer, do I need to know how both work in order to be a web developer?
+   
    During the time of learning and completing the pre-work, I found making my very own website is giving a sense of fulfillment. 
    And I had some questions about the data:
    If I want to save the gaming data, such as the ranking for the highest 10 people that was just randomly come in and play, do I save it on my laptop or on Glitch's server?
    If want to let people be able to search my website, how can I make it be searchable by Google or other searching engines?
    If I would like to ask the players to create an account, would it be secure since this website was built on another website?
    What is the best way or where are some excellent resources that I can use for learning web development?
-   ]
+   
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
 
-   [First of all, I will definitely try to reduce the complexity of the running times of the function to let the program run faster.
+   First of all, I will definitely try to reduce the complexity of the running times of the function to let the program run faster.
    This is because when I tested the Sound&Memory game, it stuck and did not show any pattern that the player can follow.
    I also asked other friends to try on the game, and I got two feedbacks saying the pattern did not shows up.
    Secondly, I will try to add some features to it because all games are good games, it is just haven't been discover
    the most addicted rules of playing, such as the Subway Surfers.
    For instance, adding some game sounds, increase the speed of pattern-changing, and changethe shape of the buttons to crowded the players' minds.
    ALso, new rules can be applied to the new-shapes stage, such as following the shape pattern, instead of the color. 
-   Furthermore, I also can show which round the player is completing, the larger the number is, the higher the sense of achievement is.]
+   Furthermore, I also can show which round the player is completing, the larger the number is, the higher the sense of achievement is.
 
 ## License
 
