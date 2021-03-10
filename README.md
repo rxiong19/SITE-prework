@@ -1,12 +1,20 @@
 ## Time tracker
 
 start time for the required tasks: 5:18 P.M. EST Mar. 9th, 2021
+
 stop for break: 7:09 P.M. EST Mar. 9th, 2021
+
 back from break: 7:30 P.M. EST Mar. 9th 2021
+
 end time for the required tasks : 8:50 P.M. EST Mar. 9th, 2021
 
+
+
 start time for the optional tasks: 9:10 P.M. EST Mar 9th, 2021
+
 end time for optional tasks: 10:58 P.M. EST Mar. 9th 2021
+
+
 
 # Pre-work - _Memory Game_
 
