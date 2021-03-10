@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Sound&Memory</h1>
+
+    <p>
+      Welcome!!! This is a simple game about Sound and Memory! It is fun to play
+      with , please give me feedback after playing:-)
+    </p>
+    <p>
+      Rules: As you click the "start" button, you will see the color button(s)
+      being pressed. Then you follow the same sequence to get into the next
+      stage. As you reach your final stage, you win. If you get the pattern
+      wrong, then you lose the game.
+    </p>
+    <p>
+      Good Luck!
+    </p>
+    <button id="startBtn" onclick="startGame(); ">
+      Start
+    </button>
+
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      ></button>
+    </div>
+
+    <audio src="btn1.wav" id="btn1"></audio>
+
+    <audio src="btn2.wav" id="btn2"></audio>
+
+    <audio src="btn3.wav" id="btn3"></audio>
+
+    <audio src="btn4.wav" id="btn4"></audio>
+  </body>
+</html>
